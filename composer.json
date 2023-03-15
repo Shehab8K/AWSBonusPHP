@@ -1,0 +1,19 @@
+{
+    "name": "shebo/aws-bonus",
+    "autoload": {
+        "psr-4": {
+            "Shebo\\AwsBonus\\": "src/"
+        },
+        "classmap": ["classes"],
+        "files": ["config.php"]
+    },
+    "authors": [
+        {
+            "name": "Shehab Hossam",
+            "email": "Shehab.haz@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.261"
+    }
+}
